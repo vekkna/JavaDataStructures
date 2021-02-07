@@ -3,6 +3,10 @@ public class Program {
         LinkedList ll = new LinkedList();
         ll.add(1);
         ll.add(2);
-        System.out
+        ll.add(3);
+        ll.add(4);
+        ll.printAll();
+        ll.removeAt(2);
+        ll.printAll();
     }
 }
